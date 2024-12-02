@@ -1,0 +1,14 @@
+/.idea
+/.venv
+__pycache__
+/.git
+/.github
+/.gitignore
+/docker-compose.yml
+/Dockerfile
+/LICENSE
+/README.md
+/logs
+/config
+/plugins
+/.env
