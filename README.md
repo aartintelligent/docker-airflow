@@ -26,7 +26,7 @@ echo -e "AIRFLOW_UID=$(id -u)" > .env
 ```
 
 ```shell
-docker compose up -d --scale airflow-worker=3
+docker compose --profile flower up -d --scale airflow-worker=3
 ```
 
 ```shell
